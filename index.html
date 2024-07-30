@@ -1,101 +1,491 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="about/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+    
+    
+      
+        <title>Guía de usuario - Basalan</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.3cba04c6.min.css">
+      
         
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Guía de usuario APP</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/fontawesome.min.css" rel="stylesheet">
-        <link href="css/brands.min.css" rel="stylesheet">
-        <link href="css/solid.min.css" rel="stylesheet">
-        <link href="css/v4-font-face.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
 
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href=".">Guía de usuario APP</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href="." class="nav-link active" aria-current="page">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about/" class="nav-link">Sobre Nosotros</a>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="about/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#guia-de-usuario" class="nav-link">Guía de Usuario</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#seccion-1-instalacion" class="nav-link">Sección 1: Instalación</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#seccion-2-uso" class="nav-link">Sección 2: Uso</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#seccion-3-contacto" class="nav-link">Sección 3: Contacto</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guia-de-usuario" class="md-skip">
+          Saltar a contenido
+        </a>
+      
     </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="." title="Guía de usuario - Basalan" class="md-header__button md-logo" aria-label="Guía de usuario - Basalan" data-md-component="logo">
+      
+  <img src="data:image/svg+xml,<?xml version='1.0' encoding='UTF-8'?><svg class='iconify iconify--logos' width='31.88' height='32' aria-hidden='true' role='img' version='1.1' viewBox='0 0 256 257' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'><path d='m169.04 247.52c-5.2692-6.1287-11.663-15.053-14.972-20.897-9.3048-16.434-17.402-39.489-20.967-59.696-0.97095-5.5045-1.1874-10.778-1.1914-29.021-4e-3 -21.903 0.0284-22.448 1.8915-31.077 2.5707-11.906 8.1599-28.379 13.602-40.091 2.4765-5.3291 4.3668-9.8251 4.2008-9.9911-0.54983-0.54985-6.5022 9.6168-10.592 18.091-9.8375 20.384-14.542 38.208-16.346 61.937-1.4872 19.558 1.4729 46.074 7.1776 64.297 0.52344 1.6721 2.2156 7.0637 3.7604 11.982 1.5448 4.9178 2.7059 9.2362 2.5802 9.5965-0.25038 0.71765-0.36548 0.66865-14.754-6.2817-22.311-10.777-30.614-16.072-39.893-25.437-14.191-14.323-20.038-26.485-14.483-30.124 1.4709-0.96381 1.8846-0.88834 5.9903 1.0918 5.4492 2.6281 6.768 2.4901 7.0396-0.737 0.16254-1.9316-1.1651-5.1168-6.7561-16.208-3.8271-7.5924-8.094-16.908-9.4819-20.701-5.2737-14.412-7.9246-35.995-5.064-41.229 2.1561-3.9454 7.1014-3.5397 11.352 0.93132 3.3556 3.5293 7.3611 6.3214 9.0683 6.3214 1.8559 0 3.4447-1.7531 3.9796-4.3913 0.22602-1.1147 1.0225-7.5211 1.7699-14.236 0.74744-6.7153 1.8225-13.989 2.3891-16.165 2.3213-8.912 8.167-17.723 12.766-19.24 3.4512-1.139 6.584 0.51611 12.165 6.4267 3.806 4.0311 5.1624 5.0483 6.7286 5.0466 2.8819-0.0061 6.0542-3.8287 11.883-14.33 8.0619-14.524 12.112-19.808 16.432-21.437 2.4842-0.93656 4.1517-0.03134 5.1341 2.7865 0.92583 2.6559 3.29 5.2843 4.7354 5.2646 0.58548-0.0073 4.2566-1.7182 8.1581-3.8005 3.9015-2.0823 9.0158-4.8118 11.365-6.0657 5.893-3.1452 7.668-2.9619 10.453 1.0796 2.4243 3.5174 0.88878 9.3123-4.8385 18.259-4.1713 6.5163-3.2387 8.7009 4.6386 10.866 5.9413 1.6327 7.4391 2.769 7.4103 5.6219-0.0332 3.2929-2.5316 6.607-12.97 17.204-5.3542 5.4357-10.398 10.76-11.208 11.832-2.2628 2.994-0.38707 7.0651 1.1499 8.602 3.2092 3.2091 18.23 1.6324 21.269 4.0231 1.5276 1.2017 1.7801 1.9139 1.7801 5.0229 0 4.5496-0.6183 6.1629-4.2108 10.987-3.3807 4.5396-5.9874 7.487-14.753 16.681-3.556 3.7299-7.9642 8.4502-9.796 10.49-1.8318 2.0393-3.6549 4.0154-4.0513 4.3913-2.2865 2.1678-6.3462 7.7737-6.7263 9.2879-1.4265 5.6837 2.5396 6.873 15.095 4.5266 4.311-0.80564 5.1778-0.79443 6.7558 0.0874 1.4709 0.82204 1.8516 1.5776 2.0307 4.0303 0.28943 3.9638-0.47661 6.3912-5.9829 18.96-8.0331 18.336-10.111 27.514-10.113 44.659-1e-3 11.569 0.48761 15.43 2.8467 22.496 1.7401 5.2122 3.134 9.796 2.9788 9.796-0.0667 0-0.70962-0.68402-1.4284-1.52z' fill='%23f8f9fb' stroke-width='.08412'/></svg>" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guía de usuario - Basalan
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guía de Usuario
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Guía de usuario - Basalan" class="md-nav__button md-logo" aria-label="Guía de usuario - Basalan" data-md-component="logo">
+      
+  <img src="data:image/svg+xml,<?xml version='1.0' encoding='UTF-8'?><svg class='iconify iconify--logos' width='31.88' height='32' aria-hidden='true' role='img' version='1.1' viewBox='0 0 256 257' xml:space='preserve' xmlns='http://www.w3.org/2000/svg'><path d='m169.04 247.52c-5.2692-6.1287-11.663-15.053-14.972-20.897-9.3048-16.434-17.402-39.489-20.967-59.696-0.97095-5.5045-1.1874-10.778-1.1914-29.021-4e-3 -21.903 0.0284-22.448 1.8915-31.077 2.5707-11.906 8.1599-28.379 13.602-40.091 2.4765-5.3291 4.3668-9.8251 4.2008-9.9911-0.54983-0.54985-6.5022 9.6168-10.592 18.091-9.8375 20.384-14.542 38.208-16.346 61.937-1.4872 19.558 1.4729 46.074 7.1776 64.297 0.52344 1.6721 2.2156 7.0637 3.7604 11.982 1.5448 4.9178 2.7059 9.2362 2.5802 9.5965-0.25038 0.71765-0.36548 0.66865-14.754-6.2817-22.311-10.777-30.614-16.072-39.893-25.437-14.191-14.323-20.038-26.485-14.483-30.124 1.4709-0.96381 1.8846-0.88834 5.9903 1.0918 5.4492 2.6281 6.768 2.4901 7.0396-0.737 0.16254-1.9316-1.1651-5.1168-6.7561-16.208-3.8271-7.5924-8.094-16.908-9.4819-20.701-5.2737-14.412-7.9246-35.995-5.064-41.229 2.1561-3.9454 7.1014-3.5397 11.352 0.93132 3.3556 3.5293 7.3611 6.3214 9.0683 6.3214 1.8559 0 3.4447-1.7531 3.9796-4.3913 0.22602-1.1147 1.0225-7.5211 1.7699-14.236 0.74744-6.7153 1.8225-13.989 2.3891-16.165 2.3213-8.912 8.167-17.723 12.766-19.24 3.4512-1.139 6.584 0.51611 12.165 6.4267 3.806 4.0311 5.1624 5.0483 6.7286 5.0466 2.8819-0.0061 6.0542-3.8287 11.883-14.33 8.0619-14.524 12.112-19.808 16.432-21.437 2.4842-0.93656 4.1517-0.03134 5.1341 2.7865 0.92583 2.6559 3.29 5.2843 4.7354 5.2646 0.58548-0.0073 4.2566-1.7182 8.1581-3.8005 3.9015-2.0823 9.0158-4.8118 11.365-6.0657 5.893-3.1452 7.668-2.9619 10.453 1.0796 2.4243 3.5174 0.88878 9.3123-4.8385 18.259-4.1713 6.5163-3.2387 8.7009 4.6386 10.866 5.9413 1.6327 7.4391 2.769 7.4103 5.6219-0.0332 3.2929-2.5316 6.607-12.97 17.204-5.3542 5.4357-10.398 10.76-11.208 11.832-2.2628 2.994-0.38707 7.0651 1.1499 8.602 3.2092 3.2091 18.23 1.6324 21.269 4.0231 1.5276 1.2017 1.7801 1.9139 1.7801 5.0229 0 4.5496-0.6183 6.1629-4.2108 10.987-3.3807 4.5396-5.9874 7.487-14.753 16.681-3.556 3.7299-7.9642 8.4502-9.796 10.49-1.8318 2.0393-3.6549 4.0154-4.0513 4.3913-2.2865 2.1678-6.3462 7.7737-6.7263 9.2879-1.4265 5.6837 2.5396 6.873 15.095 4.5266 4.311-0.80564 5.1778-0.79443 6.7558 0.0874 1.4709 0.82204 1.8516 1.5776 2.0307 4.0303 0.28943 3.9638-0.47661 6.3912-5.9829 18.96-8.0331 18.336-10.111 27.514-10.113 44.659-1e-3 11.569 0.48761 15.43 2.8467 22.496 1.7401 5.2122 3.134 9.796 2.9788 9.796-0.0667 0-0.70962-0.68402-1.4284-1.52z' fill='%23f8f9fb' stroke-width='.08412'/></svg>" alt="logo">
+
+    </a>
+    Guía de usuario - Basalan
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Guía de Usuario
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Guía de Usuario
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-1-instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 1: Instalación
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sección 1: Instalación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Previos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasos-de-instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos de Instalación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-2-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 2: Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sección 2: Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidad-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidad Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-3-contacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 3: Contacto
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-1-instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 1: Instalación
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sección 1: Instalación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-previos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Previos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasos-de-instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos de Instalación
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-2-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 2: Uso
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sección 2: Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#funcionalidad-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidad Principal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#casos-de-uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casos de Uso
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seccion-3-contacto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sección 3: Contacto
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
 
 <h1 id="guia-de-usuario">Guía de Usuario</h1>
 <h2 id="seccion-1-instalacion">Sección 1: Instalación</h2>
@@ -121,87 +511,62 @@
 <ul>
 <li><strong>Correo Electrónico:</strong> <a href="mailto:email@example.com">email@example.com</a></li>
 <li><strong>GitHub:</strong> <a href="https://github.com/usuario/proyecto">Repositorio del Proyecto</a></li>
-</ul></div>
-            </div>
-        </div>
+</ul>
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
             </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://github.com/geoinnova/ingunet-basalan-mockups" target="_blank" rel="noopener">Basalan</a>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-
-    </body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
 </html>
-
-<!--
-MkDocs version : 1.6.0
-Build Date UTC : 2024-07-30 07:59:18.240129+00:00
--->
